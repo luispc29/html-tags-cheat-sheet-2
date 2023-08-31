@@ -6,15 +6,31 @@
     <title>HTML Tags Cheat Sheet</title>
   </head>
   <body>
-    <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
-    <h2>Headings</h2>
+    <header>
+      <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
+      <p>Copied by King Louis</p>
+    </header>
+    <nav>
+        <h3>Table of Content</h3>
+      <ul>
+        <!-- <li><a href="#top-of-page" target="_parent">Top of Page</a></li> -->
+        <li><a href="#section2" target="_parent">Headings</a></li>
+        <li><a href="#section3" target="_parent">Paragraphs</a></li>
+        <li><a href="#section4" target="_parent">Lists</a></li>
+        <li><a href="#section5" target="_parent">Anchors</a></li>
+        <li><a href="#section6" target="_parent">Text Emphasis</a></li>
+        <li><a href="#section7" target="_parent">Div and Span</a></li>
+        <li><a href="#section8" target="_parent">Using `br`</a></li>
+      </ul>
+    </nav>
+    <h2 id="section2">Headings</h2>
     <p>
       Headings from `h1` to `h6` identify blocks and sections. Every page must
       have one `h1`.
     </p>
-    <h2>Paragraphs</h2>
+    <h2 id="section3">Paragraphs</h2>
     <p>Paragraphs of text go in `p` tags.</p>
-    <h2>Lists</h2>
+    <h2 id="section4">Lists</h2>
     <h3>Unordered Lists</h3>
     <p>
       Unordered lists are marked with bullet points and go in `ul` tags. Each
@@ -37,7 +53,7 @@
       <li>Carry out the plan</li>
       <li>Go back and improve the solution</li>
     </ol>
-    <h2>Anchors (i.e. links)</h2>
+    <h2 id="section5">Anchors (i.e. links)</h2>
     <p>
       Anchor tags create links to other pages. The URL goes in the `href`
       attribute.
@@ -61,7 +77,7 @@
       of the element you want to navigate to. This allows you to
       <a href="#top-of-page"> Jump to the top of the page. </a>
     </p>
-    <h2>Text Emphasis</h2>
+    <h2 id="section6">Text Emphasis</h2>
     <h3>Italic</h3>
     <em>
       The `em` element adds extra emphasis to the text within the opening and
@@ -72,7 +88,7 @@
       You can also use the `strong` element to emphasize text. This shows up as
       bold text in most browsers.
     </strong>
-    <h2>Organizing Content with `div` and `span`</h2>
+    <h2 id="section7">Organizing Content with `div` and `span`</h2>
     <h3>`div`</h3>
     <p>
       The `div` element is a block element, so each `div` will show up on a new
@@ -89,7 +105,7 @@
     <span>1st span</span>
     <span>2nd span</span>
     <span>3rd span</span>
-    <h2>Breaking text using the `br` tag</h2>
+    <h2 id="section8">Breaking text using the `br` tag</h2>
     <p>
       They live in tall trees<br />
       Such cool luminous colors<br />
